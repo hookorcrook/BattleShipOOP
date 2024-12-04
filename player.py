@@ -10,10 +10,10 @@ class Player:
         self.board = Board(COLUMNS, ROWS)
         self.ships = [
             Ship('Destroyer 1', 3),
-            #Ship('Destroyer 2', 3),
-            #Ship('Cruiser', 5),
-            #Ship('Battleship', 7),
-            #Ship('Aircraft Carrier', 9) 
+            Ship('Destroyer 2', 3),
+            Ship('Cruiser', 5),
+            Ship('Battleship', 7),
+            Ship('Aircraft Carrier', 9) 
             ]
 
     def place_ships(self):
